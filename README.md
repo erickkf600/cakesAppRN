@@ -1,4 +1,4 @@
-#Cakes App V0.0.1
+# Cakes App V0.0.1
 
 React Native: 0.63.1
 React: 16.13.1
@@ -7,7 +7,7 @@ React: 16.13.1
 $ npm install
 $ npm run android
 
-##Dependencias 
+## Dependencias 
 
 "@react-native-community/geolocation": "^2.0.2".
 
