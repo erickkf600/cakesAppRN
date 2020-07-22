@@ -5,6 +5,7 @@ React: 16.13.1
 
 
 $ npm install
+
 $ npm run android
 
 ## Dependencias 
