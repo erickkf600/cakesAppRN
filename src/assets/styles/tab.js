@@ -1,10 +1,8 @@
-import styled from 'styled-components/native';
-import {  StyleSheet } from 'react-native';
+import styled from 'styled-components/native'
+import {  StyleSheet } from 'react-native'
+import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen'
 //STYLED COMPONENTS
 export const Tab = styled.View`
-    /*background-color: #f9d1b7;
-background-image: linear-gradient(315deg, #f9d1b7 0%, #f894a4 74%);
- */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -21,5 +19,18 @@ export const TabItem = styled.View`
 `;
 
 export const styles = StyleSheet.create({
-   
+    item: {
+        width: wp('30%'),
+        height: 50,
+        flex: 1,
+        justifyContent: 'center'
+
+    },
+});
+
+export const icon = StyleSheet.create({
+    inactive: {
+        color: '#fff',
+
+    },
 });
