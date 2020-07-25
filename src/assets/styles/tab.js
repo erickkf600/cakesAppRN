@@ -8,6 +8,7 @@ export const Tab = styled.View`
     justify-content: space-around;
     align-items: center;
     height: 55px;
+    
 `;
 export const TabItem = styled.View`
     background: transparent;

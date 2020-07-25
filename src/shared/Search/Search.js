@@ -1,19 +1,22 @@
 import React from 'react'
-import { Text, View, StyleSheet } from 'react-native';
-function Search() {
+import { View } from 'react-native'
+import { Searchbar } from 'react-native-paper'
+import { EvilIcons } from './../../assets/Icons/Icons'
+function Search(props) {
     return (
-        <View style={styles.header}>
-            <Text>Search</Text>
-        </View>
+        <>
+            <Searchbar
+                placeholder="Pesquisar..."
+                autoFocus={true}
+                style={{backgroundColor: "#fff"}}
+                placeholderTextColor="#999"
+                icon={() => <EvilIcons name="chevron-left" size={35} style={{ color: "#999" }} />}
+                onIconPress={() => props.navigation.goBack()}
+            />
+            <View style={{minHeight: 1000}}>
+            </View>
+        </>
     )
 }
-const styles = StyleSheet.create({
-    tabItem: {
-       position: 'relative',
-       top: 0,
-       width: '100%',
-       padding: 15
 
-    },
-});
 export default Search

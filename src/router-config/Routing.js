@@ -27,7 +27,6 @@ const HomeStackScreen = () => {
         <HomeStack.Navigator screenOptions={{ headerShown: false }} >
             <HomeStack.Screen name="Home" component={Home} options={{ title: '' }} />
             <HomeStack.Screen name="SearchPage" component={SearchPage} options={{ title: '' }} />
-
         </HomeStack.Navigator>
     )
 }
