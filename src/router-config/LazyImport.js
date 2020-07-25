@@ -18,3 +18,4 @@ export default LazyImport
 export const Home = LazyImport(() => import('./../pages/Home/Home'/* webpackChunkName: 'home' */))
 export const MyOrders = LazyImport(() => import('./../pages/MyOrders/MyOrders'/* webpackChunkName: 'home' */))
 export const Profile = LazyImport(() => import('./../pages/Profile/Profile'/* webpackChunkName: 'home' */))
+export const SearchPage = LazyImport(() => import('./../shared/Search/Search'/* webpackChunkName: 'home' */))
