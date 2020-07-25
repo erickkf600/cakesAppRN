@@ -9,7 +9,7 @@
     "test": "jest",
     "lint": "eslint .",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install",
-    "clean:android": "cd android && gradlew-clean",
+    "clean:android": "cd android && gradlew clean",
     "clean:ios": "cd ios && xcodebuild clean"
   },
   "dependencies": {

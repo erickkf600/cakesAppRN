@@ -9,6 +9,7 @@ const TabBar = (props) => {
         <LinearGradient 
             colors={['#FE9EA1', '#FACCC0']}
             start={{ x: 0, y: 0 }}
+            style={{ borderTopLeftRadius: 15, borderTopRightRadius: 15 }}
             end={{ x: 1, y: 1 }}>
             <Tab>
 

@@ -2,8 +2,8 @@ import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { ScrollView  } from 'react-native'
 
-import Header from './../../assets/styles/Home/home-header'
-import HomeCarousel from './../../Components/Home-Carousel/Home-Carousel'
+import Header from './../../shared/Home-Header/Header'
+// import HomeCarousel from './../../Components/Home-Carousel/Home-Carousel'
 function Home(props) {
 
     return (
@@ -11,7 +11,7 @@ function Home(props) {
             <ScrollView style={{minHeight: 1000}}>
                 <Header navigation={props.navigation}/>
 
-                <HomeCarousel />
+                {/* <HomeCarousel /> */}
             </ScrollView>
         </SafeAreaView>
     )

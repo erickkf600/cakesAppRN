@@ -23,7 +23,7 @@ export const styles = StyleSheet.create({
         width: wp('30%'),
         height: 50,
         flex: 1,
-        justifyContent: 'center'
+        justifyContent: 'center',
 
     },
 });
