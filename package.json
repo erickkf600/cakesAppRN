@@ -7,7 +7,10 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install",
+    "clean:android": "cd android && gradlew-clean",
+    "clean:ios": "cd ios && xcodebuild clean"
   },
   "dependencies": {
     "@react-native-community/geolocation": "^2.0.2",
@@ -27,6 +30,7 @@
     "react-native-responsive-screen": "^1.4.1",
     "react-native-safe-area-context": "^3.1.1",
     "react-native-screens": "^2.9.0",
+    "react-native-snap-carousel": "^4.0.0-beta.5",
     "react-native-vector-icons": "^7.0.0",
     "styled-components": "^5.1.1"
   },
