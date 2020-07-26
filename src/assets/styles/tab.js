@@ -24,6 +24,7 @@ export const styles = StyleSheet.create({
         width: wp('30%'),
         height: 50,
         flex: 1,
+        borderRadius: 50,
         justifyContent: 'center',
 
     },

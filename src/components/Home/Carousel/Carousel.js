@@ -6,7 +6,7 @@ import Carousel from 'react-native-snap-carousel'
 import * as layout from './carousel.layout'
 import { widthPercentageToDP as wp } from 'react-native-responsive-screen'
 
-function HomeCarousel() {
+function Categories() {
     return (
         <SafeAreaView>
             <View style={styles.warapper}>
@@ -22,5 +22,5 @@ function HomeCarousel() {
         </SafeAreaView>
     )
 }
-export default HomeCarousel
+export default Categories
 

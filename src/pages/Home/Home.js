@@ -4,7 +4,8 @@ import { ScrollView  } from 'react-native'
 
 import Header from './../../shared/Home-Header/Header'
 import Carousel from './../../components/Home/Carousel/Carousel'
-// import HomeCarousel from './../../Components/Home/Carousel/Carousel'
+import Categories from './../../components/Home/Categories/Categories'
+
 function Home(props) {
 
     return (
@@ -13,6 +14,7 @@ function Home(props) {
                 <Header navigation={props.navigation}/>
 
                 <Carousel />
+                <Categories />
             </ScrollView>
         </SafeAreaView>
     )

@@ -2,11 +2,11 @@ import styled from 'styled-components/native'
 import { StyleSheet } from 'react-native'
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen'
 //STYLED COMPONENTS
-export const Slide = styled.View`
+export const Categorie = styled.View`
     background: #FACCC0;
     width: 100%;
-    height: 300px;
-    margin: auto;
+    height: 70px;
+    margin: 30px auto;
     border-radius: 15px;
     display: flex;
     flex: 1;
@@ -16,8 +16,16 @@ export const Slide = styled.View`
 `;
 
 export const styles = StyleSheet.create({
-    warapper:{
-        flex: 1,        
+    warapper: {
+        flex: 1,
+        alignItems: 'center',
+    },
+    container:{
+        margin: 'auto',
+        flex: 1,
+    },
+    slideItem:{
+        marginRight: wp('8.5%'),
     }
 });
 

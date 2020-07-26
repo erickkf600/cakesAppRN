@@ -4,7 +4,7 @@ import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-nat
 //STYLED COMPONENTS
 export const Head = styled.View`
     width: 85%;
-    height: 55px;
+    height: 50px;
     background: #fff;
     margin: 70px auto 30px;
 `;
@@ -20,7 +20,7 @@ export const Search = styled.View`
 
 export const styles = StyleSheet.create({
     input:{
-        height: 40,
+        height: 45,
         borderRadius: 20,
         backgroundColor: "#fff",
         shadowColor: "rgba(0,0,0,0.47)",
